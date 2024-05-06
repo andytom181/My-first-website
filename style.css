@@ -1,12 +1,91 @@
 html {
     background-color: #EADBC8;
+    font-family: Helvetica, sans-serif;
+    width: 1300px;
 }
 h2 {
     background-color: #DAC0A3;
     color: #102C57;
     font-weight: 900;
+    margin: 0;
+}
+h1 {
+    text-align: left;
 }
 .employer {
     color: #102C57;
     text-align: center;
 }
+button {
+    background-color: #102C57;
+    color: white;
+    height: 3rem;
+    font-size: larger;
+    border-radius: 10px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  
+  th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  #school {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+  }
+  #languages {
+    margin: 0;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: 650px;
+  }
+  #education {
+    padding: 0;
+    width: 1300px;
+    height: 600px;
+    left: 650px;
+  }
